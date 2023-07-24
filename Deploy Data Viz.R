@@ -4,6 +4,9 @@ library(tidyverse)
 library(plotly)
 library(shiny)
 
+Link:
+https://rodrigofrancac.shinyapps.io/DATA-VIZ/
+
 df <- read_csv("my_dataframe.csv") 
 
 hover_text <- paste("Country: ", df$Country, "<br>",
